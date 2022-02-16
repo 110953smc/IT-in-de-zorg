@@ -44,7 +44,6 @@
   font-size: 40px;
 }
 
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -80,7 +79,18 @@
 	box-sizing: border-box;
 	padding: 10px;
 	}
-
+#rightside {
+background:#86a8e7;
+margin:0;
+}
+#extra {
+background-color: #86a8e7;
+margin-top: 0%;    
+border-style: solid;
+border-color: rgb(16, 62, 168);
+border-radius: 0px 0px 30px 30px;
+color:black; 
+}
 .footer {
   background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
 	float: left;
