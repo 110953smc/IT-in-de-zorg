@@ -70,7 +70,6 @@ font-size: 200%;
 text-align: center;
 text-shadow: black 2px 2px;
 color:#1F4BC4   
-
 }
 
 #introinformationtext {
@@ -103,9 +102,6 @@ text-align: center;
 	padding: 10px;
   margin:0;
 	}
-
-
-
 table, th, td {
   border: 1px solid white;
   width: 550px;

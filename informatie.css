@@ -3,14 +3,14 @@
 }
 
 .header {
-  padding: 15px;
-  text-align: center;
-  background: #809fff;
-  color: white;
-  text-align: center;
+ padding: 15px;
+ text-align: center;
+ background: #809fff;
+ color: white;
+ text-align: center;
  background: #000046;
-  text-shadow: rgb(16, 62, 168) 2px 2px;
-color:#86a8e7 
+ text-shadow: rgb(16, 62, 168) 2px 2px;
+ color:#86a8e7 
 }
 
 
@@ -45,7 +45,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-	
 .header h1 {
   font-size: 40px;
 }

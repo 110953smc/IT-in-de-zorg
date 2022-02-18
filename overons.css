@@ -22,6 +22,7 @@ color:#86a8e7
 	box-sizing: border-box;
 	padding: 10px; 
 	}
+
 	.pageRightPanel{
 	 background: linear-gradient(to right, #000046, #1cb5e0);
 	float: right;
@@ -61,16 +62,11 @@ color:#86a8e7
   color: black;
 }
 
-#rightside {
-background:#86a8e7;
-margin:0;
-}
 .pageContent{
-	background: #000046;
 	float: center;
 	clear: none;
-	min-height: 250px;
-	width: 1000px;
+	min-height: 200px;
+	width: 500px;
 	box-sizing: border-box;
 	padding: 10px;
   margin:0;
@@ -96,14 +92,16 @@ table, th, td {
   margin-right: auto;
   color: white;
 }
+
 img {
 border-radius: 8px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
+
 .main {
- background: #000046;
+background: #000046;
 margin:0;
 }
 

@@ -32,16 +32,7 @@ color:#86a8e7
 	padding: 10px; 
 	}
 
-  .pageContent{
-	 background: aliceblue;
-	float: left;
-	clear: none;
-	min-height: 900px;
-	width: 1346px;
-	box-sizing: border-box;
-	padding: 10px;
-	}
-	
+
 .header h1 {
   font-size: 40px;
 }
