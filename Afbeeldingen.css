@@ -3,7 +3,7 @@
 }
 
 .header {
-  padding: 15px;
+  padding: 3%;
   text-align: center;
   background: #809fff;
   color: white;
@@ -13,45 +13,31 @@
 color:#86a8e7 
 }
 
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
   .pageLeftPanel{
- background: linear-gradient(to right, #000046, #1cb5e0);
+ background: linear-gradient(to left, #000046, #1cb5e0);
 	float: left;
 	clear: none;
-	min-height: 1934px;
-	width: 400px;
+	min-height:1562px;
+	width: 300px;
 	box-sizing: border-box;
 	padding: 10px; 
 	}
 	.pageRightPanel{
-	 background: linear-gradient(to left, #000046, #1cb5e0);
-	float: right;
+	 background: linear-gradient(to right, #000046, #1cb5e0);
+float: right;
 	clear: none;
-	min-height: 1934px;
-	width: 400px;
+	min-height: 1562px;
+	width: 300px;
 	box-sizing: border-box;
 	padding: 10px; 
 	}
-img {
-border-radius: 8px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
 
-	
 .header h1 {
   font-size: 40px;
 }
 
 .navbar {
- overflow: hidden;
+  overflow: hidden;
  background: linear-gradient(to right, #000046, #1cb5e0);
 }
 
@@ -78,57 +64,84 @@ margin-right: auto;
 #rightside {
 background:#86a8e7;
 margin:0;
-}
-
+} 
 #headinformationtext {
 font-size: 200%;
 text-align: center;
-text-shadow: black 1px 1px;
+text-shadow: black 2px 2px;
 color:#1F4BC4   
 
 }
 
 #introinformationtext {
 font-size: 100%;
-font-family: Times, Times New Roman, serif;
+font-family: Arial, Helvetica, sans-serif;
 text-align: center;
-color: black;
+text-shadow: black 1px 1px;
+color:#1F4BC4  
 }
 #subheadinformationtext {
 font-size: 150%;
 text-align: center;
 text-shadow: black 1px 1px;
-font-family: Times, Times New Roman, serif;
-color:#1F4BC4  
+color:#1F4BC4;  
 }
 
 #informationtext {
 font-size: 100%;
-font-family: Times, Times New Roman, serif;
+font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
 
+.pageContent{
+	background: #000046;
+	float: center;
+	clear: none;
+	min-height: 1600px;
+	width: 1100px;
+	box-sizing: border-box;
+	padding: 10px;
+  margin:0;
+	}
+
+
+
+table, th, td {
+  border: 1px solid white;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.main {
+ background: #000046;
+margin:0;
+}
+
+.main h2 {
+  margin-top: 0;
+  padding-top: 1em;
+  text-align: center;
+  font-size: 180%;
+  color: white;
+}
+img {
+border-radius: 8px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 .footer {
   background: #000046;
   color: white;
 	clear: none;
-  position: fixed;
 	left: 0;
   bottom: 0;
 	width: 100%;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 10px;
+  position: fixed;
 }
-
-.main {
-  background-color: #1cb5e0;
-  padding-bottom: 50px
-}
-
-.main h3 {
-  margin-top: 0;
-  padding-top: 1em;
-  text-align: center;
-  font-size: 180%;
 }

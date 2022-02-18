@@ -12,31 +12,15 @@
   text-shadow: rgb(16, 62, 168) 2px 2px;
 color:#86a8e7 
 }
-
-  .pageLeftPanel{
- background: linear-gradient(to left, #000046, #1cb5e0);
-	float: left;
-	clear: none;
-	min-height: 680px;
-	width: 300px;
-	box-sizing: border-box;
-	padding: 10px; 
-	}
-	.pageRightPanel{
-	 background: linear-gradient(to right, #000046, #1cb5e0);
-	float: right;
-	clear: none;
-	min-height: 680px;
-	width: 300px;
-	box-sizing: border-box;
-	padding: 10px; 
-	}
+body {
+  background-image: url("https://www.fda.gov/files/MDDT-homepage.jpg");
+}
 
   .pageContent{
 	 background: aliceblue;
 	float: left;
 	clear: none;
-	min-height: 900px;
+	min-height: 550px;
 	width: 1346px;
 	box-sizing: border-box;
 	padding: 10px;
@@ -48,7 +32,7 @@ color:#86a8e7
 
 .navbar {
   overflow: hidden;
-  background: linear-gradient(to right, #000046, #1cb5e0);
+ background: linear-gradient(to right, #000046, #1cb5e0);
 }
 
 .navbar a {
@@ -58,6 +42,12 @@ color:#86a8e7
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+}
+
+.video {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* Right-aligned link */
@@ -71,26 +61,37 @@ color:#86a8e7
   color: black;
 }
 
-.pageNavigationBar{
-	background-color: #9A14EC;
-	color: #FFFFFF;
-	text-align: center;
-	float: left;
-	clear: none;
-	min-height: 50px;
-	width: 100%;
-	box-sizing: border-box;
-	padding: 10px;
-	}
-
+#rightside {
+background:#86a8e7;
+margin:0;
+}
 #extra {
-background-color: #000046;
+background-color: #86a8e7;
 margin-top: 0%;    
 border-style: solid;
-border-color: #000046;
+border-color: rgb(16, 62, 168);
 border-radius: 0px 0px 30px 30px;
-color:white; 
-min-height: 700px;
+color:black; 
+}
+#headinformationtext {
+font-size: 200%;
+text-align: center;
+text-shadow: black 1px 1px;
+color:rgb(16, 62, 168)
+
+}
+
+#introinformationtext {
+font-size: 120%;
+font-family: Times, Times New Roman, serif;
+text-align: center;
+color: black;
+}
+
+#informationtext {
+font-size: 120%;
+font-family:Times, Times New Roman, serif;
+text-align: center;
 }
 #subheadinformationtext {
 font-size: 140%;
@@ -99,19 +100,36 @@ text-shadow: black 1px 1px;
 font-family: Times, Times New Roman, serif;
 color:#1F4BC4  
 }
+h7 {
+  width: 500px;
+  padding: 1px;
+  margin: 0px;
+  color: white;
+  font-size: 140%;
+  font-family: Arial;
+}
+h3 {
+  padding: 1px;
+  margin: 0px;
+  color: white;
+  font-size: 140%;
+  font-family: Arial;
+  text-align: center;
+}
+
 .footer {
   background: #000046;
   color: white;
-	position: fixed;
 	clear: none;
 	left: 0;
   bottom: 0;
 	width: 100%;
 	text-align: center;
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 15px;
 }
 
-  .body {
-    padding: 100px;
-  }
+#body {
+  text-align: center;
+  background-color: #668cff80;
+}
